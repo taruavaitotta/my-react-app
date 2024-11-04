@@ -1,0 +1,51 @@
+
+.card {
+  border: 1px solid rgb(160, 147, 147);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #534d4d;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px; /* Maksimileveys */
+  display: inline-block; /* Varmistaa, että padding ja border lasketaan mukaan */
+}
+
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color:hsl(0, 0%, 20%);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color:hsl(0, 0%, 30%);
+}
+
+.button{
+ background-color: hsl(200, 100%, 50%);
+ color: white;
+ padding: 10px 20px;
+ border-radius: 5px;
+ border: none;
+ cursor: pointer;
+}
+
+.hakijaprofiilit{
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid hsl (0, 0%, 50%, 0.8);
+}
+
+.hakijaprofiilit p{
+  margin:0;
+}
